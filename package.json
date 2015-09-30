@@ -1,0 +1,23 @@
+{
+  "name": "club-website-2015",
+  "version": "1.0.0",
+  "description": "New implementation using Node.js, Express, and Jade.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keawade/club-website-2015.git"
+  },
+  "author": "keawade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keawade/club-website-2015/issues"
+  },
+  "homepage": "https://github.com/keawade/club-website-2015",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  }
+}
