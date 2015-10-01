@@ -37,5 +37,24 @@
       "time": "7:30 PM",
       "location": "DB 307"
     }
+  ],
+  "officers": [
+    {
+      "name": "Douglas Sheese",
+      "position": "Tabletop Event Officer",
+      "image": "/img/douglassheese.jpg"
+    },{
+      "name": "Keith Wade",
+      "position": "Computing Event Officer",
+      "image": "/img/keithwade.jpg"
+    },{
+      "name": "Lexi Dossenko",
+      "position": "Communications Officer",
+      "image": "/img/lexidossenko.jpg"
+    },{
+      "name": "Colby Rodeheaver",
+      "position": "Resource Officer",
+      "image": "/img/colbyrodeheaver.jpg"
+    }
   ]
 }
