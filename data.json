@@ -1,12 +1,6 @@
 {
   "events": [
     {
-      "url": "https://www.google.com/calendar/event?eid=djUzanZ1bWhtb3Nxam1mNDEwbzdibDhjNzhfMjAxNTEwMDJUMDAzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
-      "title": "Code Night",
-      "date": "October 1",
-      "time": "7:30 PM",
-      "location": "DB 307"
-    },{
       "url": "https://www.google.com/calendar/event?eid=aW9qM3A1MzE2bXRwbmFrZWFxdDlwdTh2a3NfMjAxNTEwMDdUMDAzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
       "title": "Game Night",
       "date": "October 6",
@@ -36,6 +30,12 @@
       "date": "October 29",
       "time": "7:30 PM",
       "location": "DB 307"
+    },{
+      "url": "https://www.google.com/calendar/event?eid=aW9qM3A1MzE2bXRwbmFrZWFxdDlwdTh2a3NfMjAxNTExMDRUMDEzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
+      "title": "Game Night",
+      "date": "November 3",
+      "time": "7:30 PM",
+      "location": "DB 302"
     }
   ],
   "officers": [

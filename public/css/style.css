@@ -3,6 +3,33 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   margin: 0;
   padding: 0;
   border: 0;
+  background-color: #27556C;
+  color: white;
+  font-weight: 300;
+}
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+h3 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  padding: .5em;
+  background-color: white;
+  color: #27556C;
+  text-align: center;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1.2em;
+  padding-top: 1em;
+}
+h5 {
+  font-size: 1em;
 }
 #container {
   margin-left: auto;
@@ -12,9 +39,25 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 }
 #events a {
   text-decoration: none;
-  color: black;
+}
+.ttc-events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ttc-events a{
+  flex: 0 1 33%;
+}
+.ttc-events ul {
+  color: white;
 }
 #sponsors iframe {
   width: 100%;
   height: 100%;
+}
+#officers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  justify-content: space-between;
 }

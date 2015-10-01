@@ -13,22 +13,24 @@ html
       h2 #{location}
       #events
         h3 Events
-        for event in events
-          a(href=event.url)
-            ul
-              li= event.title
-              li= event.date
-              li= event.time
-              li= event.location
+        .ttc-events
+          for event in events
+            a(href=event.url)
+              h4= event.title
+              ul
+                li= event.date
+                li= event.time
+                li= event.location
       #games
         h3 Games
-        p Ut commodo, nisi ut blandit mollis, ipsum justo pretium metus, id consequat magna ipsum cursus nisl. Maecenas eu purus lorem. Proin placerat semper felis et semper. Cras consequat arcu eros, et placerat leo facilisis sit amet. Suspendisse in leo nulla. Fusce a efficitur ipsum. Quisque non tellus nunc.
+        p The Tech & Tabletop Club has a library of games available for students to play. These games are available on game nights and on request.
+        button Request a game
       #sponsors
         h3 Sponsors
         h4 Gauntlet Games
         iframe(src="https://www.google.com/maps/embed/v1/place?q=Gauntlet%20Games%2C%20South%2013th%20Street%2C%20Lincoln%2C%20NE%2C%20United%20States&amp;key=AIzaSyDPnieDPzgsTPPhEtnJvitexdXspzDK8Xk" allowfullscreen="" frameborder="0" height="450" width="600")
+      h3 Officers
       #officers
-        h3 Officers
         for person in officers
           .officer
             h4 #{person.name}
@@ -36,4 +38,7 @@ html
             img(src=person.image)
       #contact
         h3 Contact Us
-        p Suspendisse orci nulla, efficitur ut lectus et, accumsan pharetra urna. Fusce ut magna nulla. Ut posuere, felis quis faucibus malesuada, leo tellus varius ligula, at elementum erat turpis sodales risus. Donec nec orci ut lacus fringilla posuere. Quisque leo lacus, commodo sed iaculis in, sollicitudin non sem. Mauris bibendum eleifend mi ac porta. In mauris nisl, fermentum vel dui a, mattis volutpat leo.
+        p Questions? Comments? Heaps of praise? Let us know!
+        form
+          textarea Whatup?
+          button Submit

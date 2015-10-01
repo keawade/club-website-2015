@@ -9,3 +9,4 @@ New implementation using Node.js, Express, and Jade.
 * [Cool buttons](http://tympanus.net/Development/CreativeButtons/)
 * [Button morph to modal](http://tympanus.net/Development/ButtonComponentMorph/index.html)
 * [Dialog things](http://tympanus.net/Development/DialogEffects/dean.html)
+* [Sidebar things](https://github.com/codrops/SidebarTransitions)
