@@ -20,7 +20,8 @@ app.get('/', function(req,res,next){
         title: 'Tech & Tabletop Club',
         location: 'Union College, Lincoln Nebraska',
         events: data.events,
-        officers: data.officers
+        officers: data.officers,
+        games: data.games
     });
 });
 

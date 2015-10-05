@@ -56,5 +56,99 @@
       "position": "Resource Officer",
       "image": "/img/colbyrodeheaver.jpg"
     }
+  ],
+  "games": [
+    {
+      "name": "Coup",
+      "id": 131357,
+      "expansions": [
+        {
+          "name": "Reformation",
+          "bggId": 148931
+        }
+      ]
+    },{
+      "name": "Small World",
+      "bggId": 40692,
+      "expansions": []
+    },{
+      "name": "Kill Doctor Lucky",
+      "bggId": 257,
+      "expansions": [
+        {
+          "name": "Ambivalence Pack",
+          "bggId": 21818
+        },{
+          "name": "Craigdarroch",
+          "bggId": 2204
+        }
+      ]
+    },{
+      "name": "Jetpack Unicorn",
+      "bggId": 148973,
+      "expansions": []
+    },{
+      "name": "Inka",
+      "bggId": 16498,
+      "expansions": []
+    },{
+      "name": "Munchkin Deluxe",
+      "bggId": 1927,
+      "expansions": []
+    },{
+      "name": "Betrayal at House on the Hill",
+      "bggId": 10547,
+      "expansions": []
+    },{
+      "name": "Ticket to Ride",
+      "bggId": 9209,
+      "expansions": []
+    },{
+      "name": "Settlers of Catan",
+      "bggId": 13,
+      "expansions": [
+        {
+          "name": "5-6 Player Expansion",
+          "bggId": 2807
+        }
+      ]
+    },{
+      "name": "Dominion",
+      "bggId": 36218,
+      "expansions": []
+    },{
+      "name": "Road Kill Rally",
+      "bggId": 65225,
+      "expansions": []
+    },{
+      "name": "The Resistance",
+      "bggId": 41114,
+      "expansions": []
+    },{
+      "name": "The Werewolves of Miller's Hollow",
+      "bggId": 25821,
+      "expansions": [
+        {
+          "name": "Characters",
+          "bggId": 132780
+        },{
+          "name": "New Moon",
+          "bggId": 21713
+        }
+      ]
+    },{
+      "name": "Carcassone",
+      "bggId": 822,
+      "expansions": [
+        {
+          "name": "The River",
+          "bggId": 2591
+        }
+      ]
+    },{
+      "name": "Save Doctor Lucky",
+      "bggId": 1157,
+      "expansions": []
+    }
   ]
 }

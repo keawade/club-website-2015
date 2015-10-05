@@ -24,7 +24,13 @@ html
       #games
         h3 Games
         p The Tech & Tabletop Club has a library of games available for students to play. These games are available on game nights and on request.
-        button Request a game
+        ul
+          for game in games
+            li= game.name
+            -if(game.expansions != [])
+              ul
+                for item in game.expansions
+                  li= item.name
       #sponsors
         h3 Sponsors
         h4 Gauntlet Games
