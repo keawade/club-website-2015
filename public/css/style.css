@@ -61,3 +61,21 @@ h5 {
   flex-basis: auto;
   justify-content: space-between;
 }
+#contact form fieldset .formgroup {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  justify-content: space-between;
+}
+#contact form fieldset .formgroup label {
+  
+}
+#contact form fieldset .formgroup input{
+  
+}
+#contact form fieldset .formgroup textarea {
+  
+}
+#contact form fieldset .formgroup button {
+  
+}

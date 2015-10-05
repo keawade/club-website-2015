@@ -1,4 +1,5 @@
 var express = require('express');
+var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 
 var gmailauth = require('./auth.json');
@@ -16,6 +17,9 @@ app.set('ip', process.env.IP || '0.0.0.0');
 
 // Set root directory.
 app.use(express.static('public'));
+
+// Enable body-parser for req.body calls
+app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', function(req,res,next){
     res.render('index', {

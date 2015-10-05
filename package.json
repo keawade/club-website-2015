@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/keawade/club-website-2015",
   "dependencies": {
+    "body-parser": "^1.14.1",
     "express": "^4.13.3",
     "jade": "^1.11.0",
     "nodemailer": "^1.5.0"
