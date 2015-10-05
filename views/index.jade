@@ -44,7 +44,11 @@ html
             img(src=person.image)
       #contact
         h3 Contact Us
-        p Questions? Comments? Heaps of praise? Let us know!
-        form
-          textarea Whatup?
-          button Submit
+        p Got an idea to improve our community? Drop us a line below.
+        form(method="POST" action='/email')
+          label(for="email") E-mail:
+          input(name="email" placeholder="e-mail" required="" type="text")
+          label(for="message") Message:
+          textarea(name="message" type="textbox" placeholder="Tell us what you think. Should we be more awesome? Think we are trying too hard?" required="")
+          label() 
+          button(type="submit") Hit us up!
