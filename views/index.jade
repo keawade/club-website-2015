@@ -6,11 +6,16 @@ html
     title!=title
     link(rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400")
     link(rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css")
+    link(rel="stylesheet" type="text/css" href="css/borderMenu.css")
     link(rel="stylesheet" type="text/css" href="css/style.css")
+    link(rel="icon" type="image/png" href="/img/ttc-favicon.png")
+    script(src="js/modernizr.custom.js")
   body
     #container
-      h1 #{title}
-      h2 #{location}
+      #header
+        img(src="img/Logo01Trans.png")
+        h1 #{title}
+        h2 #{location}
       #events
         h3 Events
         .ttc-events
@@ -39,9 +44,9 @@ html
       #officers
         for person in officers
           .officer
+            img(src=person.image)
             h4 #{person.name}
             h5 #{person.position}
-            img(src=person.image)
       #contact
         h3 Contact Us
         p Got an idea to improve our community? Drop us a line below.
@@ -52,3 +57,30 @@ html
           textarea(name="message" type="textbox" placeholder="Tell us what you think. Should we be more awesome? Think we are trying too hard?" required="")
           label() 
           button(type="submit") Hit us up!
+          
+      nav(id="bt-menu" class="bt-menu")
+        a(href="#" class="bt-menu-trigger")
+          span Menu
+        ul
+          li
+            a(href="#events") Events
+          li
+            a(href="#games") Games
+          li
+            a(href="#sponsors") Sponsors
+          li
+            a(href="#officers") Officers
+          li
+            a(href="#contact") Contact Us
+        ul
+          li
+            a(href="http://www.twitter.com/UnionTTC" class="fa fa-twitter ttc-footer-icon") Twitter
+          li
+            a(href="http://plus.google.com/u/0/b/107128998391136934091/107128998391136934091/about" class="fa fa-google-plus ttc-footer-icon") Google+
+          li
+            a(href="http://www.facebook.com/UnionTTC" class="fa fa-facebook ttc-footer-icon") Facebook
+          li
+            a(href="https://github.com/UnionTTC" class="fa fa-github-alt ttc-footer-icon") icon-github
+      
+      script(src="js/classie.js")
+      script(src="js/borderMenu.js")
