@@ -1,40 +1,40 @@
 {
   "events": [
     {
-      "url": "https://www.google.com/calendar/event?eid=aW9qM3A1MzE2bXRwbmFrZWFxdDlwdTh2a3NfMjAxNTEwMDdUMDAzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
-      "title": "Game Night",
-      "date": "October 6",
-      "time": "7:30 PM",
-      "location": "DB 302"
-    },{
-      "url": "https://www.google.com/calendar/event?eid=ZnZzYWJocjdkOTExMGEycmxwYzI2Ymd2ZzggNXVkNGRiaWExcWw4dHBjcWplZXA5ZmQ3N2tAZw",
-      "title": "UI & Product Design Lecture",
-      "date": "October 7",
-      "time": "6:30 PM",
-      "location": "DB 302"
-    },{
-      "url": "https://www.google.com/calendar/event?eid=NXJhbDV1MXM1dWo3ZW5qMnVjaDgwM2xmY2dfMjAxNTEwMTRUMDAzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
+      "url": "https://www.google.com/calendar/event?eid=NXJhbDV1MXM1dWo3ZW5qMnVjaDgwM2xmY2dfMjAxNTExMTFUMDEzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
       "title": "Code Night",
-      "date": "October 13",
+      "date": "2015-11-10",
       "time": "7:30 PM",
       "location": "DB 307"
     },{
+      "url": "http://www.meetup.com/nebraskajs/events/225013242/",
+      "title": "NebraskaJS - Node v4",
+      "date": "2015-10-15",
+      "time": "7:00 PM",
+      "location": "Hudl"
+    },{
       "url": "https://www.google.com/calendar/event?eid=NGRkOTk0ZDRoa29lMGhnM29zZ2tuMmlobThfMjAxNTEwMjNUMDAzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
       "title": "Game Night",
-      "date": "October 22",
+      "date": "2015-10-22",
       "time": "7:30 PM",
       "location": "DB 302"
     },{
       "url": "https://www.google.com/calendar/event?eid=djUzanZ1bWhtb3Nxam1mNDEwbzdibDhjNzhfMjAxNTEwMzBUMDAzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
       "title": "Code Night",
-      "date": "October 29",
+      "date": "2015-10-29",
       "time": "7:30 PM",
       "location": "DB 307"
     },{
       "url": "https://www.google.com/calendar/event?eid=aW9qM3A1MzE2bXRwbmFrZWFxdDlwdTh2a3NfMjAxNTExMDRUMDEzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
       "title": "Game Night",
-      "date": "November 3",
+      "date": "2015-11-03",
       "time": "7:30 PM",
+      "location": "DB 302"
+    },{
+      "url": "https://www.google.com/calendar/event?eid=OXI4a3BmaWUxYTM4MjAyaDQ0Ym5sbHFwbDQgNXVkNGRiaWExcWw4dHBjcWplZXA5ZmQ3N2tAZw",
+      "title": "ClojureScript - Joe Smith",
+      "date": "2015-11-05",
+      "time": "6:30 PM",
       "location": "DB 302"
     }
   ],
@@ -60,7 +60,7 @@
   "games": [
     {
       "name": "Coup",
-      "id": 131357,
+      "bggId": 131357,
       "expansions": [
         {
           "name": "Reformation",

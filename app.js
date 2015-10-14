@@ -21,13 +21,55 @@ app.use(express.static('public'));
 // Enable body-parser for req.body calls
 app.use(bodyParser.urlencoded({ extended: false }));
 
+function formatDate(date){
+  var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var dateArr = date.split('-');
+  var month = months[dateArr[1]];
+  var day = parseInt(dateArr[2],10);
+  return month + " " + day;
+}
+
+var sortedEvents = data.events.slice(0);
+
+sortedEvents.sort(function(a,b){
+  if ( a.date > b.date ){
+    return 1;
+  } else if ( a.date < b.date ){
+    return -1;
+  } else {
+    return 0;
+  }
+});
+
+sortedEvents = sortedEvents.map(function(a){
+  return {
+    "url": a.url,
+    "title": a.title,
+    "date": formatDate(a.date),
+    "time": a.time,
+    "location": a.location
+  };
+});
+
+var sortedGames = data.games.slice(0);
+
+sortedGames.sort(function(a,b){
+  if ( a.name > b.name ){
+    return 1;
+  } else if ( a.name < b.name ){
+    return -1;
+  } else {
+    return 0;
+  }
+});
+
 app.get('/', function(req,res,next){
     res.render('index', {
         title: 'Tech & Tabletop Club',
         location: 'Union College, Lincoln Nebraska',
-        events: data.events,
+        events: sortedEvents,
         officers: data.officers,
-        games: data.games
+        games: sortedGames
     });
 });
 
