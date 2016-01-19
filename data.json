@@ -1,40 +1,28 @@
 {
   "events": [
     {
-      "url": "https://www.google.com/calendar/event?eid=NXJhbDV1MXM1dWo3ZW5qMnVjaDgwM2xmY2dfMjAxNTExMTFUMDEzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
-      "title": "Code Night",
-      "date": "2015-11-10",
-      "time": "7:30 PM",
-      "location": "DB 307"
-    },{
-      "url": "http://www.meetup.com/nebraskajs/events/225013242/",
-      "title": "NebraskaJS - Node v4",
-      "date": "2015-10-15",
-      "time": "7:00 PM",
-      "location": "Hudl"
-    },{
-      "url": "https://www.google.com/calendar/event?eid=NGRkOTk0ZDRoa29lMGhnM29zZ2tuMmlobThfMjAxNTEwMjNUMDAzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
+      "url": "https://orgsync.com/119420/events/1331359/occurrences/2997858",
       "title": "Game Night",
-      "date": "2015-10-22",
+      "date": "2016-1-19",
       "time": "7:30 PM",
       "location": "DB 302"
     },{
-      "url": "https://www.google.com/calendar/event?eid=djUzanZ1bWhtb3Nxam1mNDEwbzdibDhjNzhfMjAxNTEwMzBUMDAzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
-      "title": "Code Night",
-      "date": "2015-10-29",
-      "time": "7:30 PM",
-      "location": "DB 307"
-    },{
-      "url": "https://www.google.com/calendar/event?eid=aW9qM3A1MzE2bXRwbmFrZWFxdDlwdTh2a3NfMjAxNTExMDRUMDEzMDAwWiA1dWQ0ZGJpYTFxbDh0cGNxamVlcDlmZDc3a0Bn",
+      "url": "https://orgsync.com/119420/events/1331359/occurrences/2997859",
       "title": "Game Night",
-      "date": "2015-11-03",
+      "date": "2016-2-16",
       "time": "7:30 PM",
       "location": "DB 302"
     },{
-      "url": "https://www.google.com/calendar/event?eid=OXI4a3BmaWUxYTM4MjAyaDQ0Ym5sbHFwbDQgNXVkNGRiaWExcWw4dHBjcWplZXA5ZmQ3N2tAZw",
-      "title": "ClojureScript - Joe Smith",
-      "date": "2015-11-05",
-      "time": "6:30 PM",
+      "url": "https://orgsync.com/119420/events/1331359/occurrences/2997860",
+      "title": "Game Night",
+      "date": "2016-3-15",
+      "time": "7:30 PM",
+      "location": "DB 302"
+    },{
+      "url": "https://orgsync.com/119420/events/1331359/occurrences/2997861",
+      "title": "Game Night",
+      "date": "2016-4-19",
+      "time": "7:30 PM",
       "location": "DB 302"
     }
   ],
