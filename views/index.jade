@@ -1,6 +1,6 @@
 //- index.jade
 doctype html
-html
+html(lang='en')
   head
     meta(name="viewport" content="width=device-width, initial-scale=1")
     title!=title
@@ -32,7 +32,7 @@ html
         ul
           for game in games
             li= game.name
-            -if(game.expansions != [])
+            if(game.expansions != [])
               ul
                 for item in game.expansions
                   li= item.name

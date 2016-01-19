@@ -1,4 +1,6 @@
 # club-website-2015
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 New implementation using Node.js, Express, and Jade.
 
 ## Technologies
