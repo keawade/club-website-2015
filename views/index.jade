@@ -20,7 +20,7 @@ html(lang='en')
         h3 Events
         .ttc-events
           for event in events
-            a(href=event.url)
+            a(href=event.url target="_blank")
               h4= event.title
               ul
                 li= event.date
@@ -28,14 +28,16 @@ html(lang='en')
                 li= event.location
       #games
         h3 Games
-        p The Tech & Tabletop Club has a library of games available for students to play. These games are available on game nights and on request.
+        p The Tech & Tabletop Club has a library of games available for students to play. These games are available at game nights and upon request.
         ul
           for game in games
-            li= game.name
+            li
+              a(href='http://boardgamegeek.com/boardgame/#{game.bggId}' target="_blank")= game.name
             if(game.expansions != [])
               ul
                 for item in game.expansions
-                  li= item.name
+                  li
+                    a(href='http://boardgamegeek.com/boardgame/#{item.bggId}' target="_blank")= item.name
       #sponsors
         h3 Sponsors
         h4 Gauntlet Games
